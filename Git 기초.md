@@ -6,7 +6,7 @@
 
 ## 0.기본설정
 
-윈도우에서 git을 활용하기 위해서는 'git bash'가 필요하다. [설치링크]("https://gitforwindows.org/")
+윈도우에서 git을 활용하기 위해서는 'git bash'가 필요하다. [설치링크](https://gitforwindows.org/)
 
 설치 이후에 commit을 작성하는 author 설정이 필요하다.
 
@@ -23,6 +23,24 @@ $ git config --global -l
 user.email= minjooku614@gmail.com
 user.name= minjooku
 ```
+
+## gitignore
+
+프로젝트를 진행할 때, git으로 관리하지 않을 파일 혹은 폴더등을 설정할 수 있다.
+
+``` 
+*.xlsx    #확장자가 xlsx인 파일
+a.txt  #a.txt 파일
+.ipynb_checkpoints/  # .ipynb_checkpoints 폴더
+```
+
+프로젝트 시작시 어떠한 내용을 담아야 할지 모르겠다면 ,
+
+[gitignore](https://gitignore.io) 에서 검색한다. 
+
+예) `python`, `r`, `jupyter notebook`
+
+
 
 ##  로컬 저장소에서 활용하기
 
@@ -50,7 +68,7 @@ $ git add images/ #특정 폴더를 stage
 $ git add . #모든디렉토리 파일 및 폴더를 stage
 ```
 
-* add 전 상태
+* `add` 전 상태
 
   ```bash
   $ git status
@@ -70,7 +88,7 @@ $ git add . #모든디렉토리 파일 및 폴더를 stage
 
   
 
-* add 후 상태 
+* `add` 후 상태 
 
   ```bash
   $ git status
@@ -124,7 +142,7 @@ Changes to be committed:
 
 ```
 
-이후 변경 사항이 발생하게 된다면, add ->commit을 한다. 
+이후 변경 사항이 발생하게 된다면, `add`->`commit`을 한다. 
 
 `add`: 커밋할 대상 파일 선정
 
@@ -138,7 +156,7 @@ Changes to be committed:
 
 ### 0.기본 설정
 
-Github에 비어있는 저장소(repository) 생성
+`Github`에 비어있는 저장소(repository) 생성
 
 ### 1.원격 저장소 설정
 
