@@ -8,6 +8,10 @@
   $ git clone 원격저장소 URL 
   ```
 
+  ```bash
+  $ cd {멀캠의  directoryname or folder}
+  ```
+
   
 
 * 로컬 저장소(B-멀캠)
